@@ -1,11 +1,14 @@
-import { useState } from "react";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import NavBar from "./components/NavBar";
+import MainComponet from "./components/MainComponet";
+import FooterComponent from "./components/FooterComponent";
 
 function App() {
   return (
     <>
-      <h1>simple-portfolio for sudosuanjal</h1>
+      <NavBar />
+      <MainComponet />
+      <FooterComponent />
     </>
   );
 }
