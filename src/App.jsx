@@ -1,15 +1,12 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
-import MainComponet from "./components/MainComponet";
-import FooterComponent from "./components/FooterComponent";
-import About from "./components/About";
-
+import About from "./components/About/About";
+import FooterComponent from "./components/Footer/FooterComponent";
+import NavBar from "./components/Navbar/NavBar";
 function App() {
   return (
     <>
       <NavBar />
       <About />
-      <MainComponet />
       <FooterComponent />
     </>
   );

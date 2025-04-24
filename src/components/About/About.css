@@ -1,0 +1,145 @@
+.about-section {
+  max-width: 800px;
+  margin: 60px auto 40px;
+  padding: 0 20px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.code-snippet {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 10px 16px;
+  border-bottom: 1px solid #444444;
+}
+
+.filename {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button:nth-child(1) {
+  background-color: #ff5f56;
+}
+
+.button:nth-child(2) {
+  background-color: #ffbd2e;
+}
+
+.button:nth-child(3) {
+  background-color: #27c93f;
+}
+
+.code-content {
+  padding: 16px;
+  background-color: #1e1e1e;
+  overflow-x: auto;
+}
+
+.code-content pre {
+  margin: 0;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+.code-content code {
+  color: #e6e6e6;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.highlight-1 {
+  color: #ff79c6;
+  font-weight: 500;
+}
+
+.highlight-2 {
+  color: #50fa7b;
+  font-weight: 500;
+}
+
+.highlight-3 {
+  color: #8be9fd;
+  font-weight: 500;
+}
+
+.highlight-4 {
+  color: #e9b43e;
+  font-weight: 500;
+}
+
+.highlight-4:hover {
+  color: #535bf2;
+  font-weight: 500;
+}
+
+.highlight-5 {
+  color: #bd93f9;
+  font-weight: 500;
+}
+
+.highlight-6 {
+  color: #f1fa8c;
+  font-weight: 500;
+}
+
+.highlight-7 {
+  color: #ff5555;
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .about-section {
+    margin: 40px auto 20px;
+    padding: 0 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+
+  .code-content code {
+    font-size: 0.85rem;
+  }
+
+  .buttons {
+    gap: 6px;
+  }
+
+  .button {
+    width: 10px;
+    height: 10px;
+  }
+}

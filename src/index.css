@@ -13,14 +13,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
-}
+} */
 
 body {
   margin: 0;
@@ -55,7 +55,6 @@ main {
   justify-content: center;
 }
 
-/* Add this to your index.css or create a new Container.css file */
 .container {
   width: 100%;
   max-width: 800px;
@@ -64,7 +63,6 @@ main {
   box-sizing: border-box;
 }
 
-/* Adjust the body styling to ensure proper centering */
 body {
   margin: 0;
   min-width: 320px;
@@ -83,14 +81,12 @@ body {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); /* Optional: adds shadow to make it stand out */
 }
 
-/* Update navbar to stay within container width */
 .navbar {
   width: 100%;
   max-width: 800px;
   box-sizing: border-box;
 }
 
-/* Media query for mobile devices */
 @media (max-width: 500px) {
   .container {
     padding: 0 10px;
