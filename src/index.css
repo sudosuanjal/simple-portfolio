@@ -54,3 +54,45 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+/* Add this to your index.css or create a new Container.css file */
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Adjust the body styling to ensure proper centering */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 800px; /* Constrains the width */
+  background-color: #242424; /* Match your background color */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); /* Optional: adds shadow to make it stand out */
+}
+
+/* Update navbar to stay within container width */
+.navbar {
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 500px) {
+  .container {
+    padding: 0 10px;
+  }
+}
