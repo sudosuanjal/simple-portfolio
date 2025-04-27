@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="logo-section">
-        <img src="anon1mb.jpg" width={45} height={45} alt="Profile" />
+        <img src="masked.jpg" width={45} height={45} alt="Profile" />
         <h1>sudosuanjal</h1>
       </div>
       <div>
@@ -15,7 +15,7 @@ const NavBar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              x
+              <img src="xlogo.jpg" width={30} height={30} />
             </a>
           </li>
           <li>
@@ -24,7 +24,7 @@ const NavBar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              github
+              <img src="github.png" width={30} height={30} />
             </a>
           </li>
           <li>
@@ -33,7 +33,7 @@ const NavBar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin
+              <img src="linkedin.png" width={30} height={30} />
             </a>
           </li>
         </ul>
