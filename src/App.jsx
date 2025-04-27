@@ -9,7 +9,7 @@ function App() {
       <NavBar />
       <About />
       <Projects />
-      <FooterComponent />
+      {/* <FooterComponent /> */}
     </>
   );
 }
